@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Sports Academy</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <header>
+        <h1>Elite Sports Academy</h1>
+        <nav>
+            <a href="#welcome">Home</a>
+            <a href="#programs">Programs</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+<div class="main-content">
+    <div class="grid-layout">
+        <div></div>
+        <div class="center-column">
+            <section id="welcome">
+                <img src="https://www.ondecksports.com/core/media/media.nl?id=24782357&c=1113969&h=RyGmFlJzTIrvDVaruIEN2eufFjUbIv-B8Z7Rx_sUcAT4GiYG" alt="Academy Welcome">
+                <h2>Welcome to Elite Sports Academy</h2>
+                <p>At Elite Sports Academy, we believe in nurturing talent from a young age. Our academy has produced top athletes who have represented at state and national levels. Join us today and take the first step toward excellence!</p>
+            </section>
+            <section id="programs">
+                <img src="https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg" alt="Sports Training">
+                <h2>Our Programs</h2>
+                <p>We offer professional training for Football, Basketball, and Tennis. Join us to elevate your skills with world-class coaches.</p>
+            </section>
+           
+            <section id="news">
+                <h2>News & Updates</h2>
+                <ul>
+                    <li>
+                        <img src="https://media.istockphoto.com/id/1072970164/vector/june-1-single-day-calendar-flat-style.jpg?s=612x612&w=0&k=20&c=vbwLChc9aMISZY7yfFrpyVeJiBiRUsfqBU-XgXj3nl0=" alt="Summer Camp">
+                        Summer Coaching Camp starts from June 1.
+                    </li>
+                    <li>
+                        <img src="https://img.freepik.com/premium-vector/30-may-calendar-date-flat-icon-day-30-vector-illustration_1004592-2615.jpg" alt="Football Tryouts">
+                        Tryouts for the football team open till May 30.
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div></div>
+    </div>
+    </div>
+    <div class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+            <div id="nameError" class="error"></div>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+            <div id="emailError" class="error"></div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" ></textarea>
+            <div id="messageError" class="error"></div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2025 Elite Sports Academy.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
